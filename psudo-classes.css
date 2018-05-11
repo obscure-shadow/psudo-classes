@@ -49,3 +49,19 @@ article:before{
     display: block;
 
 }
+/* When the user hovers over one of the links, the color of the text should change.*/
+
+nav a:hover{
+    color: #00ff00;
+
+}
+/*When the user hovers over one of the links, the background color of the element that contains the link should change. */
+nav a:hover  {
+    background-color: purple;
+}
+/*When the user clicks on one of the links, the element that contains the link should grow in size by 5px on the left and right. */
+
+nav a:active {
+    padding-left: 5px;
+    padding-right: 5px;
+}
